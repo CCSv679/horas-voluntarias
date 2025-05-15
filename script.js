@@ -1,4 +1,4 @@
-const endpoint = "hhttps://script.google.com/macros/s/AKfycbxd90HX1GcMf8o7GVpApkuILldWjTQDMigZnx511KvUyrO7a_9v0ChBMzf9kflfc2ZC5Q/exec";
+const endpoint = "https://script.google.com/macros/s/AKfycbxd90HX1GcMf8o7GVpApkuILldWjTQDMigZnx511KvUyrO7a_9v0ChBMzf9kflfc2ZC5Q/exec";
 
 const form = document.getElementById("form-voluntario");
 const tabelaCorpo = document.querySelector("#tabela-horas tbody");
