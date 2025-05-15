@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Controle de Horas Voluntárias - CCSv</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Controle de Horas Voluntárias - CCSv</h1>
+  <form id="form-voluntario">
+    <input type="text" id="nome" placeholder="Nome" required autocomplete="off" />
+    <input type="text" id="matricula" placeholder="Matrícula" required autocomplete="off" />
+    <input type="date" id="data" required />
+    <input type="number" id="horas" placeholder="Horas" step="0.1" required />
+    <button type="submit">Registrar</button>
+  </form>
+  <section class="filtros">
+    <select id="filtro-mes"><option value="">Todos os meses</option></select>
+    <select id="filtro-ano"><option value="">Todos os anos</option></select>
+    <button id="btn-filtrar">Filtrar</button>
+    <button id="btn-imprimir">🖨️ Imprimir</button>
+  </section>
+  <table id="tabela-horas">
+    <thead>
+      <tr><th>Nome</th><th>Matrícula</th><th>Data</th><th>Horas</th></tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <p id="mensagem"></p>
+  <script src="script.js"></script>
+</body>
+</html>
